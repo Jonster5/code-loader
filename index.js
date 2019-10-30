@@ -4,7 +4,7 @@ const express = require('express');
 let app = express();
 
 app.get('/', (req, res) => {
-    res.send('lol');
+    res.sendStatus(404);
 });
 
 app.get('/pebble2d', (req, res) => {
