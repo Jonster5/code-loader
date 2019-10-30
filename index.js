@@ -4,7 +4,7 @@ const express = require('express');
 let app = express();
 
 app.get('/', (req, res) => {
-    res.sendStatus(404);
+    res.send('This Page Does Not Exist');
 });
 
 app.get('/pebble2d', (req, res) => {
